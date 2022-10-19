@@ -11,7 +11,7 @@ if(!empty($_REQUEST['action']))
 $params= explode("/", $action);
 switch ($params[0]){
     case '':
-        ;
+        
         break;
 
     default:
