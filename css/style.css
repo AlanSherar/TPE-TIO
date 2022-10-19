@@ -1,4 +1,9 @@
 /* GENERAL */
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 0px;
+}
 body{
     min-width: 400px;
     margin: 0%;
@@ -12,16 +17,39 @@ h1, h2, h3, h4, h5, h6, p, a{
 section{
     margin: 50px 8%;
 }
-
+.calculadora_cuerpo {
+    margin: 2em;
+    padding: 2em;
+    max-width: fit-content;
+    background-color:rgb(105, 105, 105);
+    border-radius: 0.8rem;
+}
+.calculadora_pantalla {
+    padding: 0.5em 1em;
+    margin-bottom: 2em;
+    border-radius: 0.3rem;
+    background-color: white;
+}
+.calculadora_pantalla h4 {
+    font-weight: 400;
+    text-align: end;
+    padding: 0  0.5em;
+}
+.calculadora_teclado {
+    background-color: rgb(95, 95, 95);
+    padding: 0.5em;
+    border-radius: 0.3rem;
+    border: solid black 2px;
+}
 .copyright{
     display: flex;
     justify-content: center;
     font-size: 10px;
     font-weight: bold;
-
 }
 
 /* HEADER */
+
 header nav{
     background-color: rgb(41, 41, 41);
 }
@@ -45,12 +73,11 @@ header nav ul li a{
 
 hr{
     margin: 0px;
-    
 }
 
 /* ABOUT */
 
-.main-container{
+.main_container{
     display: flex;
 }
 
