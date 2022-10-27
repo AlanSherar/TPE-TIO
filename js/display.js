@@ -10,4 +10,9 @@ function computar(tipo){
     this.imprimirValores();
 }
 
-function agregarNumero(numero){}
+function agregarNumero(numero){
+
+   if(numero == '.' && this.valorActual.includes('.'))return
+   this.valorActual = this.valorActual.toString() + numero.toString();
+   this.imprimirValores(); 
+}
