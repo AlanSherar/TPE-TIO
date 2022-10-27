@@ -9,3 +9,5 @@ function computar(tipo){
     this.valorActual = '';
     this.imprimirValores();
 }
+
+function agregarNumero(numero){}
