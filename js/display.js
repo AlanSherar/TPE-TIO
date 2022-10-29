@@ -1,7 +1,13 @@
 "use strict"
-
-
-function computar(tipo){
+class Display{
+    constructor(displayValorAnterior , displayValorActual){
+        this.displayValorAnterior = displayValorAnterior;
+        this.valorActual = displayValorActual;
+        this.calculadora = new Calculadora() ;
+        this.valorAnterior = '' ;
+        this.valorActual = '' ;
+    }
+     computar(tipo){
 
     this.tipoOperacion !=='igual' && this.calcular();
     this.tipoOperacion = tipo ;
@@ -10,9 +16,10 @@ function computar(tipo){
     this.imprimirValores();
 }
 
-function agregarNumero(numero){
+ agregarNumero(numero){
 
    if(numero == '.' && this.valorActual.includes('.'))return
    this.valorActual = this.valorActual.toString() + numero.toString();
    this.imprimirValores(); 
+}
 }

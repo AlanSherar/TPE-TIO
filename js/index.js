@@ -1,4 +1,4 @@
-"use strict"
+ "use strict"
 
 const displayValorAnterior = document.getElementById('valor-anterior');
 const displayValorActual = document.getElementById('valor-actual');
