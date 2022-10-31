@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto calculadora</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="calculadora.html"> Calculadora</a></li>
-                <li> <a href="about.html">About</li></a> 
-                <li> <a href="contactos.html">Contacto</li></a>
-            </ul>
-        </nav>
-        <hr>
-    </header>
-    <main>
+<main>
         <section class="calculadora_cuerpo">
         <div class="calculadora_pantalla">
             <h4>Resultado</h4>
@@ -55,13 +35,3 @@
         </div>
     </section>
     </main>
-    <footer>
-        <ul>
-            <li> <a href="calculadora.html"> Calculadora</a></li>
-            <li> <a href="about.html">About</a></li> 
-            <li> <a href="contactos.html">Contacto</a></li>
-        </ul>
-        <p class="copyright">Copyright © 2022 Desarrollado por grupo 36 (TIO - TUDAI). Todos los Derechos Reservados. Prohibida su reproducción total o parcial</p>
-    </footer>
-</body>
-</html>
