@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto calculadora</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/calculadora.js" type="text/javascript"></script>
+    <script src="js/calculadora.js" type="text/javascript" defer></script>
     <script src="js/index.js" type="text/javascript" defer></script>
-    <script src="js/display.js" type="text/javascript"></script>
+    <script src="js/display.js" type="text/javascript" defer></script>
 </head>
 <body>
     <header>
@@ -33,32 +33,32 @@
                 <div class="valor-actual"></div>
             </div>
             <div class="teclado__fila">
-                <button type="submit" name="numero7" value="7">7</button>
-                <button type="submit" name="numero8" value="8">8</button>
-                <button type="submit" name="numero9" value="9">9</button>
-                <button type="submit" name="multiplicacion" value="multiplicacion">*</button>
+                <button class="numero" type="submit" name="numero7" value="7">7</button>
+                <button class="numero" type="submit" name="numero8" value="8">8</button>
+                <button class="numero" type="submit" name="numero9" value="9">9</button>
+                <button class="operador" type="submit" name="multiplicacion" value="multiplicacion">*</button>
             </div>
             <div class="teclado__fila">
-                <button type="submit" name="numero4" value="4">4</button>
-                <button type="submit" name="numero5" value="5">5</button>
-                <button type="submit" name="numero6" value="6">6</button>
-                <button type="submit" name="resta" value="resta">-</button>
+                <button class="numero" type="submit" name="numero4" value="4">4</button>
+                <button  class="numero" type="submit" name="numero5" value="5">5</button>
+                <button class="numero" type="submit" name="numero6" value="6">6</button>
+                <button class="operador" type="submit" name="resta" value="resta">-</button>
             </div>
             <div class="teclado__fila">
-                <button type="submit" name="numero1" value="1">1</button>
-                <button type="submit" name="numero2" value="2">2</button>
-                <button type="submit" name="numero3" value="3">3</button>
-                <button type="submit" name="suma" value="suma">+</button>
+                <button class="numero" type="submit" name="numero1" value="1">1</button>
+                <button class="numero" type="submit" name="numero2" value="2">2</button>
+                <button class="numero" type="submit" name="numero3" value="3">3</button>
+                <button class="operador" type="submit" name="suma" value="suma">+</button>
             </div>
             <div class="teclado__fila">
-                <input name="mas_menos" type="submit" value="+/-">
-                <input name="numero0" type="submit" value="0">
-                <input name="coma" type="submit" value=",">
-                <input name="division" type="submit" value="/">
+                <input  name="mas_menos" type="submit" value="+/-">
+                <input class="numero" name="numero0" type="submit" value="0">
+                <input class="numero" name="coma" type="submit" value=",">
+                <input class="operador" name="division" type="submit" value="/">
             </div>
             <div class="teclado__fila">    
                 <!-- Ocupará el lugar de 3 columnas (usar flex grow: 1) -->
-                <input name="igual" type="submit" value="=">
+                <input class="operador" name="igual" type="submit" value="=">
             </div>
         </div>
     </section>
