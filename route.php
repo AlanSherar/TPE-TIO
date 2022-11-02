@@ -10,6 +10,9 @@ if(!empty($_REQUEST['action']))
 
 $params= explode("/", $action);
 switch ($params[0]){
+    case 'home':
+        showCalculadora();
+        break;
     case 'calculadora':
         showCalculadora();
         break;
