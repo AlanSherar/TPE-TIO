@@ -10,6 +10,9 @@ if(!empty($_REQUEST['action']))
 
 $params= explode("/", $action);
 switch ($params[0]){
+    case 'home':
+        showCalculadora();
+        break;
     case 'calculadora':
         showCalculadora();
         break;
@@ -18,6 +21,9 @@ switch ($params[0]){
         break;
     case 'contactos':
         showContactos();
+        break;
+    case 'matematica':
+        showMatematica();
         break;
     default:
       echo "error";

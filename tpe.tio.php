@@ -16,3 +16,8 @@ function showContactos(){
    include 'templates/contactos.php';
    include 'templates/footer.php'; 
 }
+function showMatematica(){
+   include 'templates/header.php';
+   include 'templates/about.php';
+   include 'templates/footer.php'; 
+}
