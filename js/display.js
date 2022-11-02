@@ -1,6 +1,6 @@
+"use strict"
 class Display{
-    calculadora;
-    tipoOperacion;
+
     constructor(displayValorAnterior , displayValorActual){
         this.displayValorAnterior = displayValorAnterior;
         this.displayValorActual = displayValorActual;
