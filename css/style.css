@@ -5,6 +5,7 @@
     margin: 0px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+    font-size: MEDIUM;
 }
 body{
     color: black;
@@ -12,6 +13,28 @@ body{
     margin: 0%;
     background-color: #888888;
 }
+button , input{
+
+    border:#63B2CC;
+    padding: 2.5rem;
+    margin:1% ;
+}
+
+input:hover,   button:hover{
+
+    background-color: #767676;
+}
+
+
+
+
+.igual{
+
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
 section{
     margin: 50px 8%;
 }
@@ -22,29 +45,38 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+
+
 .calculadora_cuerpo {
     margin: 2em;
-    padding: 2em;
+    
     max-width: fit-content;
-    background-color:rgb(105, 105, 105);
+    background-color:#63B2CC;
+    box-shadow: 5px 2px 20px 5px ;
     border-radius: 0.8rem;
 }
 .calculadora_pantalla {
-    padding: 0.5em 1em;
-    margin-bottom: 2em;
-    border-radius: 0.3rem;
+    
+    padding:4rem;
+    margin-top: 2rem;
     background-color: white;
 }
+
+
+
 .calculadora_pantalla h4 {
     font-weight: 400;
     text-align: end;
     padding: 0  0.5em;
 }
+
 .calculadora_teclado {
-    background-color: rgb(95, 95, 95);
+   
+    margin-top:1%;
     padding: 0.5em;
     border-radius: 0.3rem;
-    border: solid black 2px;
+    
 }
 .copyright{
     display: flex;
@@ -53,6 +85,13 @@ main {
     font-weight: bold;
 }
 
+.teclado__fila{
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;    
+
+
+}
 /* HEADER */
 
 header nav{
