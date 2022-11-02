@@ -1,22 +1,32 @@
-"use strict"
 class Display{
+    calculadora;
+    tipoOperacion;
     constructor(displayValorAnterior , displayValorActual){
         this.displayValorAnterior = displayValorAnterior;
-        this.valorActual = displayValorActual;
+        this.displayValorActual = displayValorActual;
         this.calculadora = new Calculadora() ;
+        this.tipoOperacion = undefined ;
         this.valorAnterior = '' ;
         this.valorActual = '' ;
     }
      computar(tipo){
 
-    this.tipoOperacion !=='igual' && this.calcular();
-    this.tipoOperacion = tipo ;
+   this.tipoOperacion !== 'igual' && this.calcular()
+     this.tipoOperacion = tipo ;
     this.valorAnterior = this.valorActual || this.valorAnterior;
     this.valorActual = '';
     this.imprimirValores();
+   
+   
 }
 borrar(){
     this.valorActual = this.valorActual.toString().slice(0,-1) ;
+    this.imprimirValores() ;
+}
+borrarTodo(){
+    this.valorActual = '' ;
+    this.valorAnterior = '' ;
+    this.tipoOperacion = undefined;
     this.imprimirValores() ;
 }
 
@@ -30,5 +40,12 @@ imprimirValores(){
     this.displayValorActual.textContent = this.valorActual ;
     this.displayValorAnterior.textContent = this.valorAnterior ;
 
+}
+calcular(){
+    const valorAnterior = parseFloat(this.valorAnterior) ;
+    const valorActual = parseFloat(this.valorActual) ;
+    if(isNaN(valorAnterior) || isNaN(valorActual)) return;
+    
+    this.valorAnterior = this.calculadora[this.tipoOperacion](valorAnterior , valorActual);
 }
 }
