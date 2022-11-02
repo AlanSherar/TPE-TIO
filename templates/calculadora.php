@@ -1,37 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto calculadora</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/calculadora.js" type="text/javascript"></script>
-    <script src="js/index.js" type="text/javascript" defer></script>
-    <script src="js/display.js" type="text/javascript"></script>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="calculadora.html"> Calculadora</a></li>
-                <li> <a href="about.html">About</li></a> 
-                <li> <a href="contactos.html">Contacto</li></a>
-                <li> <a href="matematica.html"></a>Matematica</li>
-            </ul>
-        </nav>
-        <hr>
-    </header>
-    <main>
+<main>
         <section class="calculadora_cuerpo">
         <div class="calculadora_pantalla">
             <h4>Resultado</h4>
         </div>
         <div class="calculadora_teclado">
-            <div class="display">
-                <div class="valor-anterior"></div>
-                <div class="valor-actual"></div>
-            </div>
             <div class="teclado__fila">
                 <button type="submit" name="numero7" value="7">7</button>
                 <button type="submit" name="numero8" value="8">8</button>
@@ -43,7 +15,6 @@
                 <button type="submit" name="numero5" value="5">5</button>
                 <button type="submit" name="numero6" value="6">6</button>
                 <button type="submit" name="resta" value="resta">-</button>
-                
             </div>
             <div class="teclado__fila">
                 <button type="submit" name="numero1" value="1">1</button>
@@ -56,23 +27,11 @@
                 <input name="numero0" type="submit" value="0">
                 <input name="coma" type="submit" value=",">
                 <input name="division" type="submit" value="/">
-
             </div>
             <div class="teclado__fila">    
                 <!-- Ocupará el lugar de 3 columnas (usar flex grow: 1) -->
                 <input name="igual" type="submit" value="=">
-                 
             </div>
         </div>
     </section>
     </main>
-    <footer>
-        <ul>
-            <li> <a href="calculadora.html"> Calculadora</a></li>
-            <li> <a href="about.html">About</a></li> 
-            <li> <a href="contactos.html">Contacto</a></li>
-        </ul>
-        <p class="copyright">Copyright © 2022 Desarrollado por grupo 36 (TIO - TUDAI). Todos los Derechos Reservados. Prohibida su reproducción total o parcial</p>
-    </footer>
-</body>
-</html>
