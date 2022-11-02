@@ -22,6 +22,9 @@ switch ($params[0]){
     case 'contactos':
         showContactos();
         break;
+    case 'matematica':
+        showMatematica();
+        break;
     default:
       echo "error";
       break;
