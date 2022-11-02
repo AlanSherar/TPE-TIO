@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>About</title>
-</head>
-<body>
-  <header>
-    <nav>
-        <ul>
-            <li> <a href="calculadora.html"> Calculadora</a></li>
-            <li> <a href="about.html">About</li></a> 
-            <li> <a href="contactos.html">Contacto</li></a>
-        </ul>
-    </nav>
-    <hr>
-  </header>
-
-  <main>
+<main>
     <div>
       <section class="main_container"> <!--Contenedor del main-->
         <div>
@@ -27,7 +6,7 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos a eligendi error sunt, eius incidunt maiores rerum ullam eum autem commodi, totam natus laboriosam adipisci architecto, voluptas dignissimos quod qui. Temporibus quos aliquam quas. Voluptates amet veritatis nobis optio consequatur mollitia aliquid, distinctio iure perspiciatis accusantium minus numquam eum voluptatibus magni maiores enim fuga fugit ab! Eos voluptates tempora aperiam? Dolore officiis, veritatis impedit a laboriosam explicabo alias ad, magni, non earum accusamus. Nobis soluta minus hic asperiores neque rerum omnis exercitationem eius. A veritatis ab magni accusamus provident molestiae? Mollitia quidem minima ipsam aspernatur reiciendis voluptate ipsum placeat, nostrum quas, quae consequuntur aperiam dicta expedita blanditiis suscipit animi possimus? Saepe quae libero quidem iste assumenda ex omnis tempora consectetur?</p>
         </div>
         <figure>
-          <img id="calc_img" src="imagenes/imgCalculadora.svg" alt="Hombre haciendo una cuenta con una calculadora">
+          <img id="calc_img" src="./imagenes/imgCalculadora.svg" alt="Hombre haciendo una cuenta con una calculadora">
           <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</figcaption>
         </figure>
       </section>
@@ -51,15 +30,3 @@
     </section>
 
   </main>
-
-  <footer>
-    <ul>
-        <li> <a href="calculadora.html"> Calculadora</a></li>
-        <li> <a href="about.html">About</a></li> 
-        <li> <a href="contactos.html">Contacto</a></li>
-    </ul>
-    <p class="copyright">Copyright © 2022 Desarrollado por grupo 36 (TIO - TUDAI). Todos los Derechos Reservados. Prohibida su reproducción total o parcial</p>
-</footer>
-
-</body>
-</html>
