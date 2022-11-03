@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matematica</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="calculadora.html"> Calculadora</a></li>
-                <li> <a href="about.html">About</li></a> 
-                <li> <a href="contactos.html">Contacto</li></a>
-                <li> <a href="matematica.html">Matematica</li></a>
-            </ul>
-        </nav>
-    </header>
-    <main>
+<main>
     <h1>¿Que operaciones Matematicas podemos realizar en nuestra calculadora?</h1>
-        
-        <section>
+    <section>
             <article>Suma: Operación matemática de composición que consiste en combinar o añadir dos números o más para obtener una cantidad final o total. Se representa con el signo "+" </article>
             
             <article>Resta: La resta o la sustracción es una operación aritmética que se representa con el signo "-". Representa la operación de eliminación de objetos de una colección.</article>
@@ -32,14 +11,5 @@
                 Existen dos signos para indicar esta operación entre números naturales: el aspa "×" y el punto gordo a media altura ( • ).
             </article>
         </section>
+        <img src="https://img.wattpad.com/e0e72dd6ded524bdc30c0afb0b3ecff09bfb16cc/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f62354d6b31784e445f6f576136773d3d2d36302e313633356166626237663331336262663734343839383931383033352e6a7067" alt="">
     </main>
-    <footer>
-        <ul>
-            <li> <a href="calculadora.html"> Calculadora</a></li>
-            <li> <a href="about.html">About</a></li> 
-            <li> <a href="contactos.html">Contacto</a></li>
-        </ul>
-        <p class="copyright">Copyright © 2022 Desarrollado por grupo 36 (TIO - TUDAI). Todos los Derechos Reservados. Prohibida su reproducción total o parcial</p>
-    </footer>
-</body>
-</html>

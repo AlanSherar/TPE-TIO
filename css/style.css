@@ -10,6 +10,7 @@
 body{
     color: black;
     min-width: 400px;
+    min-height: 100vh;
     margin: 0%;
     background-color: white;
 }
@@ -21,7 +22,6 @@ button , input{
 }
 
 input:hover,   button:hover{
-
     background-color: #767676;
 }
 
@@ -50,20 +50,16 @@ main {
 
 .calculadora_cuerpo {
     margin: 2em;
-    
     max-width: fit-content;
     background-color:#63B2CC;
     box-shadow: 5px 2px 20px 5px ;
     border-radius: 0.8rem;
 }
 .calculadora_pantalla {
-    
     padding:4rem;
     margin-top: 2rem;
     background-color: white;
 }
-
-
 
 .calculadora_pantalla h4 {
     font-weight: 400;
@@ -112,6 +108,9 @@ header nav ul li a {
     font-size: 25px;
     padding: 10px;
 }
+header nav ul li a:hover{
+    background-color: #888888;
+}
 header nav ul li a, footer a{
     color: white;
 }
@@ -126,15 +125,19 @@ footer {
     background-color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    position: sticky;
+    top: 100%;
 }
 footer ul {
     padding: 2em 0;
     display: flex;
     min-width: 50%;
+    max-height: 15%;
     justify-content: space-evenly;
 }
-
+footer a{
+    font-size: 18px;
+}
 /* ABOUT */
 
 .main_container{

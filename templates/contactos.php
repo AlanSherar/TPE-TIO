@@ -1,8 +1,7 @@
 <main>
     <h1>Contactos</h1>
     <section>
-        <h2>Grupo 36</h2>
-        <h3>Integrantes:</h3>
+        <h3>Grupo 36, Integrantes:</h3>
         <div>
             <p>Alexander, Federico - fedealexander2002@gmail.com</p>
             <p>Bertucci, Juan F. - juanbertucci97@gmail.com</p>
@@ -15,4 +14,7 @@
             <p>Sherar, Alan - alansheerrardo@gmail.com</p>
         </div>
     </section>
+    <figure>
+    <img src="https://www.icegif.com/wp-content/uploads/teamwork-icegif.gif" alt="">
+    </figure>
 </main>
