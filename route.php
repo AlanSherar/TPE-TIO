@@ -1,23 +1,25 @@
 <?php 
-require_once "test.php";
+require_once "tpe.tio.php";
 define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/');
 
-$action= "home";
+$action= "calculadora";
 if(!empty($_REQUEST['action']))
 {
     $action= $_REQUEST['action'];
 }
-
 $params= explode("/", $action);
 switch ($params[0]){
     case 'calculadora':
-        showCalculadora();
+        showBase($params[0]);
         break;
     case 'about':
-        showAbout();
+        showBase($params[0]);
         break;
     case 'contactos':
-        showContactos();
+        showBase($params[0]);
+        break;
+    case 'matematica':
+        showBase($params[0]);
         break;
     default:
       echo "error";
