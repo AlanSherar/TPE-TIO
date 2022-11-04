@@ -35,7 +35,7 @@ class Display{
 
  agregarNumero(numero){
 
-   if(numero == ',' && this.valorActual.includes('.'))return
+   if(numero == ',' && this.valorActual.includes(','))return
    this.valorActual = this.valorActual.toString() + numero.toString();
    this.imprimirValores(); 
 }
