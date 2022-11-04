@@ -30,7 +30,7 @@
             </div>
             <div class="teclado__fila">  
                 <button class="numero" value="0">0</button>
-                <button class="numero" name="coma" value=",">,</button>
+                <button class="numero" name="coma" value=".">.</button>
                 <button class="operador" name="division"  value="dividir"> %</button>
                 <button class="operador" value="=">=</button>
                 <button></button>
